@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(5, 5, 5);
+    color: blueviolet;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0px;
+}
+h1{
+    color: black;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+header{
+    border-bottom: solid 3x color(srgb rgb(255, 213, 0) green rgba(59, 59, 171, 0.655));
+    margin: 2px;
+    padding: 10px;
+    color: black;
+}
+.chamada{
+    background-color: aliceblue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
