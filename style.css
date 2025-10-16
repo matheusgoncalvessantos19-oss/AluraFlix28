@@ -1,36 +1,45 @@
-[body{
+[body {
     background-color: rgb(5, 5, 5);
     color: blueviolet;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
 }
-h1{
+
+h1 {
     color: black;
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 25px;
 }
-header{
+
+header {
     border-bottom: solid 3x color(srgb rgb(255, 213, 0) green rgba(59, 59, 171, 0.655));
     margin: 2px;
     padding: 10px;
     color: black;
 }
-.chamada{
+
+.chamada {
     background-color: aliceblue;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-.chamada-texto{
+
+.chamada-texto {
     margin-right: 8%;
 
 }
-img{
+
+img {
     height: 200px;
 }
-.categotia-videos{
-    
+
+.categotia-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
 }
