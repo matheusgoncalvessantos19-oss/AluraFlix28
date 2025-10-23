@@ -1,4 +1,4 @@
-[body {
+body {
     background-color: rgb(5, 5, 5);
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,4 +42,20 @@ img {
     display: flex;
     overflow-x: auto;
     gap: 15px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.categotia-videos::-webkit-scrollbar{
+    height: 8px;
+}
+.categotia-videos::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 4px;
+}
+
+.categotia-videos: {
+    padding-left:20px ;
+    padding-right: 20px;
+
 }
